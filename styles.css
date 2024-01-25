@@ -1,0 +1,296 @@
+/* Resetting default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+.navigation-bar ul li:first-child a {
+  font-size: 30px; /* Adjust the font size as needed */
+}
+#num{
+  text-align: right;
+  background-color: rgb(248, 114, 87);
+  padding: 20px;
+  
+  
+}
+
+.contact-button {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  background-color:rgb(223, 145, 19);
+  padding :10px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: rgb(219, 77, 38); /* Change this to your preferred hover color */
+  color: white;
+}
+
+/* Navigation bar styles */
+.navigation-bar {
+  background-color: white;
+  padding:  20px; 
+   
+  justify-content: space-between;
+  align-items: center;
+
+  
+  justify-content: space-between;
+
+}
+.right-side-content{
+  text-align: center;
+
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.book-now-button{
+  background-color:rgb(223, 145, 19);
+  padding :10px;
+}
+.book-now-button:hover {
+  background-color: rgb(219, 77, 38); /* Change this to your preferred hover color */
+  color: white;
+
+}
+
+.navigation-bar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-bar ul li a:hover {
+  color: rgb(236, 15, 15); /* Change this to your preferred hover color */
+}
+
+/* Body background image */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  overflow-y: auto;
+}
+
+/* Scrolling content wrapper */
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding-top: 50px; /* Adjust as needed */
+  padding-bottom: 20px; /* Adjust as needed */
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-side h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-side p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.book-puja-button {
+  background-color:rgb(223, 145, 19);
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.book-puja-button:hover {
+  background-color: rgb(189, 38, 15); /* Change this to your preferred hover color */
+  color: white;
+}
+
+/* Center-side content styles */
+.center-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.center-side h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.center-side p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.puja-card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.puja-card img {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+.read-more-button {
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: rgb(215, 78, 14); /* Change this to your preferred hover color */
+  color: white;
+}
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/* Existing styles remain unchanged */
+
+/* Additional styles for new content */
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.left-side h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-side h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.pooja-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pooja {
+  text-align: center;
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.pooja img {
+  width: 100%;
+  height: auto;
+}
+
+.pooja p {
+  margin-bottom: 10px;
+}
+
+.read-more-button {
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: rgb(187, 38, 12);
+  color: white;
+}
+.right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  grid-column: 2;
+  justify-self: end;
+  background-color:orange;
+  border: 1px solid orange;
+  color: black;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: rgb(194, 56, 11);
+  color: white;
+}
+/* Existing styles remain unchanged */
+
+/* Styling for the sections */
+.wrapper3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+  padding: 30px;
+}
+
+.about-section,
+.quick-links-section,
+.other-pujas-section,
+.free-consultation-section {
+  background-color:  #888888;
+  color: rgb(238, 247, 249);
+  padding: 70px;
+
+}
+
+/* Footer styles */
+.footer {
+  background-color: #888888;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
